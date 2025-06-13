@@ -22,24 +22,38 @@ df3 = pd.read_excel('../resData/남북한_발전_전력량.xlsx', engine='openpy
 print(df3)
 print('='*30)
 
+# header 옵션이 없으므로 0으로 지정되어 첫번째 행이 컬럼이 된다.
 df4 = pd.read_excel('../resData/남북한_발전_전력량.xlsx', engine='openpyxl')
 print(df4)
 print('='*30)
 
+# 데이터프레임 변경 시작
+'''
+5~8행까지의 데이터를 삭제한다. 즉 북한의 데이터를 모두 삭제하고
+남한의 데이터만 남긴다.
+'''
 new_df = df4.drop(df4.index[5:9])
 print(new_df)
 print('='*30)
 
+'''
+전력량 컬럼을 삭제한다. 축(axis) 옵션을 부여하여 행이 아닌 컬럼을
+삭제한다. 만약 해당 옵션이 없으면 행이 삭제된다.'''
 new_df = new_df.drop(['전력량 (억㎾h)'],axis=1)
 print(new_df)
 print('='*30)
 
+# 컬럼명 변경 : 축 옵션을 부여해야 컬럼명이 변경된다.
 new_df = new_df.rename({'발전 전력별':'전력구분'}, axis=1)
 print(new_df)
 print('='*30)
 
+'''
+앞에서 이름을 변경한 '전력구분' 컬럼을 인덱스로 지정한다.
+원본 데이터프레임을 변경하기 위해 inplace 옵션을 부여한다.'''
 new_df.set_index('전력구분', inplace=True)
 print(new_df)
 print('='*30)
 
+# 남한의 데이터만 남긴 상태로 저장한다.
 new_df.to_excel('../saveFiles/남한전력량.xlsx')
