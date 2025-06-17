@@ -19,7 +19,7 @@ sr_one = df_seoul.loc['경기도']
 cs_one = df_seoul.loc['충청남도']
 kb_one = df_seoul.loc['경상북도']
 jn_one = df_seoul.loc['전라남도']
-# kw_one = df_seoul.loc['강원도']
+kw_one = df_seoul.loc['강원도']
 
 # 스타일 설정 및 Axe객체 1개 생성
 plt.style.use('ggplot')
