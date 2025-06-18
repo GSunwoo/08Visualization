@@ -4,13 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="201904c3-bbb1-44bf-a068-73f043f2d8ed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveFiles/남한전력량.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/saveFiles/남한전력량.xlsx" afterDir="false" />
+    <list default="true" id="201904c3-bbb1-44bf-a068-73f043f2d8ed" name="Changes" comment="0617 오후">
+      <change afterPath="$PROJECT_DIR$/04Matplotlib/14pie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04Matplotlib/15boxplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05Seaborn/01regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05Seaborn/02histogram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05Seaborn/03heatmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05Seaborn/04scatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05Seaborn/05bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06Folium/01map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06Folium/02choropleth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06Folium/03Api1_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06Folium/03Api2_oracle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06Folium/03Api3_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06Folium/03api4_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06Folium/quiz_univ_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07WordCloud/01KoNLPy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07WordCloud/02wordCloud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07WordCloud/03mask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04Matplotlib/12scatter.py" beforeDir="false" afterPath="$PROJECT_DIR$/04Matplotlib/12scatter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04Matplotlib/13bubble.py" beforeDir="false" afterPath="$PROJECT_DIR$/04Matplotlib/13bubble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resData/서울지역_대학교_위치.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resData/서울지역_대학교_위치.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resData/전문및대학교현황.xls" beforeDir="false" afterPath="$PROJECT_DIR$/resData/전문및대학교현황.xls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,18 +43,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GSunwoo"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GSunwoo&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GSunwoo/08Visualization.git",
-    "accountId": "5e463523-2294-4f46-901d-8d3dd498c237"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GSunwoo/08Visualization.git&quot;,
+    &quot;accountId&quot;: &quot;5e463523-2294-4f46-901d-8d3dd498c237&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -51,7 +67,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.01KoNLPy.executor": "Run",
+    "Python.01map.executor": "Run",
+    "Python.01regression.executor": "Run",
+    "Python.02choropleth.executor": "Run",
+    "Python.02histogram.executor": "Run",
+    "Python.02wordCloud (1).executor": "Run",
+    "Python.02wordCloud.executor": "Run",
+    "Python.03Api1_collection.executor": "Run",
+    "Python.03Api2_oracle.executor": "Run",
+    "Python.03Api3_storage.executor": "Run",
+    "Python.03api4_processing.executor": "Run",
+    "Python.03heatmap.executor": "Run",
+    "Python.03mask.executor": "Run",
+    "Python.04scatter.executor": "Run",
     "Python.05axe4.executor": "Run",
+    "Python.05bar.executor": "Run",
+    "Python.07area.executor": "Run",
+    "Python.08bar.executor": "Run",
+    "Python.09barHorizontal.executor": "Run",
+    "Python.10secondary_y.executor": "Run",
+    "Python.11histogram.executor": "Run",
+    "Python.12scatter.executor": "Run",
+    "Python.13bubble.executor": "Run",
+    "Python.14pie.executor": "Run",
+    "Python.15boxplot.executor": "Run",
+    "Python.quiz_univ_excel.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -59,8 +100,14 @@
     "settings.editor.selected.configurable": "vcs.log"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="05axe4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\02Workspaces\08Visualization\07WordCloud" />
+      <recent name="C:\02Workspaces\08Visualization\06Folium" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.03mask">
+    <configuration name="01KoNLPy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="08Visualization" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,11 +116,99 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04Matplotlib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/saveFiles" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04Matplotlib/05axe4.py" />
+      <option name="SCRIPT_NAME" value="C:\02Workspaces\08Visualization\07WordCloud\01KoNLPy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02wordCloud (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="08Visualization" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07WordCloud" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07WordCloud/02wordCloud.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02wordCloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="08Visualization" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/saveFiles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\02Workspaces\08Visualization\07WordCloud\02wordCloud.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03api4_processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="08Visualization" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06Folium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06Folium/03api4_processing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03mask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="08Visualization" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07WordCloud" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07WordCloud/03mask.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.05axe4" />
+        <item itemvalue="Python.03mask" />
+        <item itemvalue="Python.02wordCloud (1)" />
+        <item itemvalue="Python.02wordCloud" />
+        <item itemvalue="Python.01KoNLPy" />
+        <item itemvalue="Python.03api4_processing" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +242,23 @@
       <option name="presentableId" value="Default" />
       <updated>1750071122192</updated>
     </task>
+    <task id="LOCAL-00001" summary="hello">
+      <option name="closed" value="true" />
+      <created>1750122623527</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750122623527</updated>
+    </task>
+    <task id="LOCAL-00002" summary="0617 오후">
+      <option name="closed" value="true" />
+      <created>1750140540407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750140540407</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,5 +283,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello" />
+    <MESSAGE value="0617 오후" />
+    <option name="LAST_COMMIT_MESSAGE" value="0617 오후" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/04Matplotlib/05axe2.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
