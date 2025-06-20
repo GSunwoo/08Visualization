@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 애국가 텍스트파일 읽어오기
-filename = '../resData/애국가.txt'
+filename = '../resData/박천.txt'
 f = open(filename, 'r',encoding='utf-8')
 news = f.read()
 f.close()
@@ -30,7 +30,10 @@ noun_list = count.most_common(100)
 for v in noun_list:
     print(v)
 
-icon = Image.open('../resData/masked03.png').convert('RGBA')
+'''
+mask 옵션을 사용하면 사각형이 아닌 다른 모형으로 워드클라우드를 생성할 수 있다.
+이미지를 읽고 흰색 배경(255,255,255)를 이미지에서 지워준다.'''
+icon = Image.open('../resData/masked01.png').convert('RGBA')
 mask_image = Image.new('RGB', icon.size, (255,255,255))
 mask_image.paste(icon, icon)
 mask_image = np.array(mask_image)
