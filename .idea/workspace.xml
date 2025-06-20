@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="201904c3-bbb1-44bf-a068-73f043f2d8ed" name="Changes" comment="0617 오후">
-      <change afterPath="$PROJECT_DIR$/04Matplotlib/14pie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04Matplotlib/15boxplot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05Seaborn/01regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05Seaborn/02histogram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05Seaborn/03heatmap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05Seaborn/04scatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05Seaborn/05bar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06Folium/01map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06Folium/02choropleth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06Folium/03Api1_collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06Folium/03Api2_oracle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06Folium/03Api3_storage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06Folium/03api4_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06Folium/quiz_univ_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07WordCloud/01KoNLPy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07WordCloud/02wordCloud.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07WordCloud/03mask.py" afterDir="false" />
+    <list default="true" id="201904c3-bbb1-44bf-a068-73f043f2d8ed" name="Changes" comment="0619 semi pj">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04Matplotlib/12scatter.py" beforeDir="false" afterPath="$PROJECT_DIR$/04Matplotlib/12scatter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04Matplotlib/13bubble.py" beforeDir="false" afterPath="$PROJECT_DIR$/04Matplotlib/13bubble.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resData/서울지역_대학교_위치.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resData/서울지역_대학교_위치.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resData/전문및대학교현황.xls" beforeDir="false" afterPath="$PROJECT_DIR$/resData/전문및대학교현황.xls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,50 +43,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.01KoNLPy.executor": "Run",
-    "Python.01map.executor": "Run",
-    "Python.01regression.executor": "Run",
-    "Python.02choropleth.executor": "Run",
-    "Python.02histogram.executor": "Run",
-    "Python.02wordCloud (1).executor": "Run",
-    "Python.02wordCloud.executor": "Run",
-    "Python.03Api1_collection.executor": "Run",
-    "Python.03Api2_oracle.executor": "Run",
-    "Python.03Api3_storage.executor": "Run",
-    "Python.03api4_processing.executor": "Run",
-    "Python.03heatmap.executor": "Run",
-    "Python.03mask.executor": "Run",
-    "Python.04scatter.executor": "Run",
-    "Python.05axe4.executor": "Run",
-    "Python.05bar.executor": "Run",
-    "Python.07area.executor": "Run",
-    "Python.08bar.executor": "Run",
-    "Python.09barHorizontal.executor": "Run",
-    "Python.10secondary_y.executor": "Run",
-    "Python.11histogram.executor": "Run",
-    "Python.12scatter.executor": "Run",
-    "Python.13bubble.executor": "Run",
-    "Python.14pie.executor": "Run",
-    "Python.15boxplot.executor": "Run",
-    "Python.quiz_univ_excel.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "vcs.log"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.01KoNLPy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01map.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02choropleth.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02histogram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02save_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02wordCloud (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.02wordCloud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03Api1_collection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03Api2_oracle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03Api3_storage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03api4_processing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03heatmap.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03mask.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04scatter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05axe4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05bar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07area.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08bar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09barHorizontal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10secondary_y.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11histogram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12scatter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13bubble.executor&quot;: &quot;Run&quot;,
+    &quot;Python.14pie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15boxplot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Chicken01_treeMap.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Chicken02_myTown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Delivery01_parsing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Delivery02_insert.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Delivery03_map.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quiz_univ_excel.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.log&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\02Workspaces\08Visualization" />
       <recent name="C:\02Workspaces\08Visualization\07WordCloud" />
       <recent name="C:\02Workspaces\08Visualization\06Folium" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03mask">
-    <configuration name="01KoNLPy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Chicken02_myTown">
+    <configuration name="02save_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="08Visualization" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/saveFiles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02PrepareData" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\02Workspaces\08Visualization\07WordCloud\01KoNLPy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02PrepareData/02save_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02wordCloud (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03heatmap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="08Visualization" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07WordCloud" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05Seaborn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07WordCloud/02wordCloud.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05Seaborn/03heatmap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02wordCloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Chicken01_treeMap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="08Visualization" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,11 +146,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/saveFiles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/miniProject" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\02Workspaces\08Visualization\07WordCloud\02wordCloud.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/miniProject/Chicken01_treeMap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03api4_processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Chicken02_myTown" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="08Visualization" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,11 +168,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06Folium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/miniProject" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06Folium/03api4_processing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/miniProject/Chicken02_myTown.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03mask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Delivery03_map" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="08Visualization" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,11 +190,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07WordCloud" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/miniProject" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07WordCloud/03mask.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/miniProject/Delivery03_map.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.03mask" />
-        <item itemvalue="Python.02wordCloud (1)" />
-        <item itemvalue="Python.02wordCloud" />
-        <item itemvalue="Python.01KoNLPy" />
-        <item itemvalue="Python.03api4_processing" />
+        <item itemvalue="Python.Chicken02_myTown" />
+        <item itemvalue="Python.Chicken01_treeMap" />
+        <item itemvalue="Python.03heatmap" />
+        <item itemvalue="Python.02save_csv" />
+        <item itemvalue="Python.Delivery03_map" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +244,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750140540407</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0618 da">
+      <option name="closed" value="true" />
+      <created>1750234268212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750234268212</updated>
+    </task>
+    <task id="LOCAL-00004" summary="0619 semi pj">
+      <option name="closed" value="true" />
+      <created>1750315459895</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750315459895</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +289,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello" />
     <MESSAGE value="0617 오후" />
-    <option name="LAST_COMMIT_MESSAGE" value="0617 오후" />
+    <MESSAGE value="0618 da" />
+    <MESSAGE value="0619 semi pj" />
+    <option name="LAST_COMMIT_MESSAGE" value="0619 semi pj" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
